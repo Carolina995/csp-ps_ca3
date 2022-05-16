@@ -1,7 +1,7 @@
 body {
   font-family: 'Caveat', cursive;
-  color: #000000;
-  background-color: #0279bf;
+  color: #440c46;
+  background-color: #ffcaf8;
   display: flex;
   align-items: start;
 }
@@ -30,18 +30,18 @@ div {
 }
 
 .editing {
-  background: white;
-  color: #172b4d !important;
-  box-shadow:inset 0px 0px 0px 2px #0279bf;
+  background: #f5dff1;
+  color: #470344 !important;
+  box-shadow:inset 0px 0px 0px 2px #bf02b2;
 }
 
 .editing:hover {
-  background: white !important;
+  background: rgb(255, 214, 252) !important;
 }
 
 .card {
-  background: white;
-  border-bottom: 1px solid #aaa;
+  background: rgb(252, 226, 249);
+  border-bottom: 1px solid rgb(249, 216, 241);
   
 }
 
@@ -50,7 +50,7 @@ div {
   min-width: 280px;
   margin: 10px 5px;
   position: relative;
-  background: #dfe1e6;
+  background: #e3bed9;
   text-align: center;
 }
 
@@ -60,7 +60,7 @@ div {
   margin: 10px 5px;
   position: relative;
   background: rgba(0,0,0,.12);
-  color: hsla(0,0%,100%,.8);
+  color: rgba(171, 37, 142, 0.8);
 }
 
 .ghost {
@@ -74,7 +74,7 @@ div {
   display: inline-block;
   padding: 10px;
   margin-top: 0px;
-  color: rgb(128, 128, 128);
+  color: rgba(171, 37, 142, 0.8);
   text-decoration: none;
 /*   border-bottom: 1px solid #dfe1e6; */
 }
